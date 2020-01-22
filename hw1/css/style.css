@@ -1,0 +1,162 @@
+body{
+  background-color: #DADADA;
+  font-family: sans-serif;
+}
+
+
+
+.left-block{
+  height: 30%;
+  width: 37%;
+  position:absolute;
+  top:15%;
+  left:20%;
+  background-color: #FFF;
+  border-radius: 1%;
+  padding-top:1%;
+}
+
+.right-block{
+  border-radius: 1%;
+
+  height: 30%;
+  width: 20%;
+  position:absolute;
+  top:15%;
+  left:60%;
+  background-color: #FFF;
+  border-radius: 1%;
+
+
+}
+
+
+.search-block{
+  width:100%;
+}
+
+.input{
+  border:0;
+  border-radius: 2%;
+  width:75%;
+  border:solid;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #CCC;
+  padding:1%;
+
+}
+.search-button{
+  display: inline;
+  margin-top:1px;
+  width: 18%;
+  height:25px;
+  background-color: #2185D0;
+  border: solid #2185D0;
+  font-size: 95%;
+  color:white;
+  font-weight:700;
+
+
+
+}
+
+.minus-button{
+position: absolute;
+margin:auto;
+width: 4%;
+left:48%;
+border-radius: 50%;
+border:solid;
+border-color:#eb2f06;
+background-color: #eb2f06;
+font-size: 95%;
+color:white;
+font-weight:700;
+}
+hr{
+  border-left: 0px;
+  border-bottom: 0px;
+  border-right: 0px;
+  margin-bottom: 3%;
+  margin-top:3%;
+  border: 1% solid #FFF;
+}
+.plus-button{
+  margin:auto;
+  position: absolute;
+  width: 4%;
+left:58%;
+border-radius: 50%;
+border:solid;
+border-color:#009432;
+background-color: #009432;
+color:white;
+font-size: 95%;
+font-weight:700;
+}
+.row-1{
+  margin-bottom: 7;
+}
+.row-2{
+  margin-bottom: 4%;
+}
+.row-3{
+  margin-bottom: 7%;
+}
+.counter{
+position: absolute;
+left:53%;
+width:3%;
+background-color: #DADADA;
+padding-left: 1%;
+padding-top: 1%;
+border-radius: 10%;
+
+}
+
+.bought{
+  position: absolute;
+  left:80%;
+  border-radius: 10%;
+  background-color: #DADADA;
+  font-size: 100%;
+  border:0px;
+}
+.cancel{
+  position: absolute;
+  left:93%;
+  width:4%;
+  height:9%;
+  border-radius: 10%;
+  background-color: #c72c41;
+  font-size: 100%;
+  border:0px;
+}
+.cancel-icon:before {
+  content:"\00d7";
+  color: #FFF;
+ }
+.alr-bought{
+  font-size: 80%;
+  margin-right: 6%;
+  background-color: #DADADA;
+  padding-right: 5%;
+  padding-top: 3%;
+  padding-left: 1%;
+  padding-bottom:  3%;
+  border-radius: 10%;
+}
+.orange-circle{
+  padding-left: 1%;
+  background-color: #fe6845;
+  width:2%;
+  height:7%;
+  text-align: center;
+  color: #FFF;
+  padding-right: 1%;
+  border-radius: 50%;
+}
+.right-block h2{
+  margin-bottom:0.1%;
+}
